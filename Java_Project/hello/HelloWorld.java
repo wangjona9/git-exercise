@@ -3,7 +3,8 @@ public class HelloWorld{
     public static void main (String[] args) {
         PrintWriter pen = new PrintWriter(System.out, true);
         pen.println ("Hello, GitHub!");
-        pen.flush(); //comment 
+        pen.println("Hello world");
+        pen.flush(); 
       } // main(String[])
     
 }
